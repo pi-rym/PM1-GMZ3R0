@@ -1,0 +1,35 @@
+/* reset.css */
+
+/* Elimina el margen y el padding predeterminados */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Establece el borde de la caja de todos los elementos a box-sizing: border-box */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  /* Elimina el espaciado adicional entre los elementos de lista */
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Elimina la decoración de texto predeterminada */
+  a {
+    text-decoration: none;
+  }
+  
+  /* Establece los estilos de fuente predeterminados para una mejor consistencia */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Puedes agregar más reglas de reinicio según tus necesidades */
+  

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Página</title>
+    <!-- Enlace al archivo CSS -->
+    <link rel="stylesheet" type="text/css" href="../styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="../styles/reset.css">
+</head>
+<body>
+    <header>
+        <h1>Omar Gomez</h1>
+        <h2>Mi página web</h2>
+    </header>
+
+    <!-- Sección "Sobre mí" -->
+    <section class="sobre-mi">
+        <h3>Sobre mí</h3>
+        <p>Nací en Cuautla Morelos, tengo 27 años. He tomado diferentes trabajos que me han dado experiencia en trato de personal, atención a clientes, puntualidad y responsabilidad; además de mi trabajo, tengo el hobbie de jugar videojuegos, escuchar música y aprender distintos lenguajes de programación.</p>
+    </section>
+    <section class="tecnologias-favoritas">
+        <h3>Mis Tecnologías Favoritas</h3>
+        <div class="tarjeta">
+            <img src="logo-laravel.png" alt="laravel">
+            <p>HTML</p>
+        </div>
+        <div class="tarjeta">
+            <img src="logo-css.png" alt="CSS">
+            <p>CSS</p>
+        </div>
+        <div class="tarjeta">
+            <img src="logo-js.png" alt="JavaScript">
+            <p>JavaScript</p>
+        </div>
+    </section>
+   
+    <!-- Sección "Mis actividades" -->
+    <section class="mis-actividades">
+        <h3>Mis Actividades Favoritas</h3>
+        <div class="formulario">
+            <input type="text" id="title" name="title" placeholder="Nombre de la actividad" required><br><br>
+            <textarea id="description" name="description" placeholder="Descripción" required></textarea><br><br>
+            <input type="url" id="imgUrl" name="imgUrl" placeholder="URL de la imagen" required><br><br>
+            <button type="button" onclick="repository.createActivity()">Agregar actividad</button>
+            
+        </div>
+        <div class="actividades-container">
+        </div>
+    </section>
+
+    <script src="./scripts/index.js">
+    </script>
+</body>
+</html>
